@@ -1,0 +1,158 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+body {
+  background-color: #00000017 !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-item {
+  padding: 6px;
+  border: black solid 1px;
+}
+.main .common {
+  width: 37%;
+  margin: 1%;
+  padding: 6px;
+}
+
+.alerts {
+  position: absolute;
+  padding: 7px 29px;
+  margin: 23% 0% 0% 43%;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  opacity: 0.79;
+  z-index: 1;
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.alert-white {
+  background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.table-body {
+  margin: 2% 8% 0% 8%;
+}
+
+table {
+  width: 64%;
+  margin-left: 18%;
+}
+table,
+th,
+td {
+  border: 2px solid #e3e3e7;
+  border-collapse: collapse;
+  color: #e3e3e7;
+  border-width: 2px !important;
+  text-align: center;
+  padding: 4px;
+}
+th,
+td {
+  background-color: #1b203d;
+}
+.submit-btn {
+  display: block;
+  margin-left: 46%;
+  border: none;
+  outline: none;
+  background: #ff652f;
+  font-size: 14px;
+  font-family: auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+.pagination_div {
+  margin-top: 2%;
+}
+.main {
+  border: 1px solid #00000017;
+  border-radius: 6px;
+  background-color: white;
+  margin: 3%;
+}
+.page-button {
+  background-color: #fb663b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-span {
+  border: black solid 1px;
+  border-radius: 16px;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px 20px;
+}
